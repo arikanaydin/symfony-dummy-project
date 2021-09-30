@@ -1,1 +1,1 @@
-{{ include "deployment.template" (dict "service" .Values.mysql "imageTag" .Values.imageTag "resources" .Values.resources) }}
+{{ include "deployment.template" (dict "service" .Values.phpfpm "imageTag" .Values.imageTag "resources" .Values.resources) }}
